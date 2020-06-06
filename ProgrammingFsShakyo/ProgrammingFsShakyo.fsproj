@@ -6,13 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- fsの読み込みの順番関係あり -->
-    <!-- Program.fsより先に読み込まないと動かない -->
-    <Compile Include="Hello.fs" />
-    <Compile Include="Hello2.fsx" />
-    <Compile Include="Library1.fs" />
+    <Compile Include="Chapter3.fs" />
     <Compile Include="Program.fs" />
-
   </ItemGroup>
 
 </Project>
