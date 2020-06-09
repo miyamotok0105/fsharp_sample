@@ -11,6 +11,8 @@
     <Compile Include="Hello.fs" />
     <Compile Include="Hello2.fsx" />
     <Compile Include="Library1.fs" />
+    <Compile Include="Tour1.fs" />
+
     <Compile Include="Program.fs" />
 
   </ItemGroup>
