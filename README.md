@@ -20,6 +20,7 @@ dotnet run
 fsharpc hello.fs -o hello
 mono hello
 
+fsharpc Tour1.fs -o Tour1 && mono Tour1
 
 cd ProgrammingFsShakyo
 dotnet run 1 2
@@ -45,5 +46,19 @@ Python のオフサイドルール
 Haskell のモナド文化
 静的ダックタイピング(事実上のトレイト/型クラス)
 コンパイル時型生成(type providers)
+```
+
+
+# Reference
+
+```
+F のツアー#
+https://docs.microsoft.com/ja-jp/dotnet/fsharp/tour
+F# での関数型プログラミングの概要
+https://docs.microsoft.com/ja-jp/dotnet/fsharp/introduction-to-functional-programming/
+ファーストクラス関数
+https://docs.microsoft.com/ja-jp/dotnet/fsharp/introduction-to-functional-programming/first-class-functions
+F# を知ってほしい
+https://qiita.com/cannorin/items/59d79cc9a3b64c761cd4
 ```
 
